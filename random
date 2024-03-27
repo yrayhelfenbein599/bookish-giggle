@@ -1,0 +1,14 @@
+import random
+
+# 生成随机的循环控制条件
+condition = random.choice([True, False])
+
+# 生成带有循环控制语句的while循环
+count = 0
+while count < 10:
+    print(count)
+    count += 1
+    if condition:
+        break
+    else:
+        continue
